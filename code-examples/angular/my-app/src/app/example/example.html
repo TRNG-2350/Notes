@@ -1,0 +1,32 @@
+
+<p > 
+Welcome {{ my_name }}
+Is your number higher than 20? {{ num > 20 }}
+</p>
+
+<img [src]="imageUrl" alt="Angular Logo" />
+
+<table>
+<tbody>
+    <tr>
+    <th>name</th>
+    <th>age</th>
+    <th>id</th>
+    </tr>
+    <tr>
+    <td>{{name}}</td>
+    <td>{{age}}</td>
+    <td>{{id}}</td>
+    </tr>
+</tbody>
+</table>
+
+<h2> One-Way Binding [Event Binding] </h2>
+<button (click)="countClicks()">Click Me!</button>
+<p> {{ message }}</p>
+
+<h2>Two-Way Binding</h2>
+<h3>Enter Your name</h3>
+<input type="text" [(ngModel)]="input" placeholder="Your name">
+<p> Your name is: {{ input }}</p>
+
