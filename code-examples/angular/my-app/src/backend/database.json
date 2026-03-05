@@ -1,0 +1,30 @@
+{
+  "employees": [
+    {
+      "id": "2",
+      "name": "Brian",
+      "age": 32
+    },
+    {
+      "id": "3",
+      "name": "Christie",
+      "age": 29
+    },
+    {
+      "id": "4",
+      "name": "Deshawn",
+      "age": 47
+    },
+    {
+      "id": "6",
+      "name": "Joseph",
+      "age": 36
+    },
+    {
+      "id": 7,
+      "name": "John",
+      "age": 18
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
