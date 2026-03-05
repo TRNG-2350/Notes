@@ -1,0 +1,67 @@
+<h2>Employee Portal</h2>
+
+<!-- Loading & Error States -->
+@if (isLoading()) {
+    <p>Loading employees...</p>
+}
+@if (errorMessage()) {
+    <p style="color: red;">{{ errorMessage() }}</p>
+}
+
+<!-- Employee Table -->
+@if (!isLoading() && employees().length > 0) {
+    <table border="1" cellpadding="8">
+    <thead>
+        <tr>
+        <th>ID</th>
+        <th>Name</th>
+        <th>Age</th>
+        <th>Actions</th>
+        </tr>
+    </thead>
+        <tbody>
+            @for (employee of employees(); track employee.id) {
+            <tr>
+                <td>{{ employee.id }}</td>
+                <td>{{ employee.name }}</td>
+                <td>{{ employee.age }}</td>
+                <td>
+                <button (click)="deleteEmployee(employee.id!)">Delete</button>
+                </td>
+            </tr>
+            }
+        </tbody>
+    </table>
+}
+
+@if (!isLoading() && employees().length === 0) {
+    <p>No employees found.</p>
+}
+
+<!-- Create New Employee Form -->
+<h3>Add New Employee</h3>
+<div>
+    <label>Name:</label>
+    <input
+    type="text"
+    [(ngModel)]="newName"
+    placeholder="Enter name"
+    />
+</div>
+<div>
+    <label>Age:</label>
+    <input
+    type="number"
+    [(ngModel)]="newAge"
+    placeholder="Enter age"
+    />
+</div>
+<button
+    (click)="createEmployee()"
+    [disabled]="!newName || !newAge">
+    Add Employee
+</button>
+
+@if (successMessage()) {
+    <p style="color: green;">{{ successMessage() }}</p>
+}
