@@ -57,8 +57,6 @@
 
 # SQL
 
-## Required
-
 -   What does the SQL acronym stand for? What are some SQL databases?
 -   How is data structured in a relational database?
 -   Define the concept of schema.
@@ -84,8 +82,6 @@
 
 # JDBC
 
-## Required
-
 -   What is JDBC?
 -   What is a Data Access Object (DAO)?
 -   What interfaces and classes are used with JDBC?
@@ -101,8 +97,6 @@
 
 # Git Fundamentals
 
-## Required
-
 -   What is version control?
 -   What makes Git different from other version control systems?
 -   What is the difference between Git and GitHub?
@@ -112,8 +106,181 @@
 -   What does the command `git init` do
 -   How would you prevent a file from being tracked by git
 
+------------------------------------------------------------------------
+
+# Agile for Developers
+
+-   What are the steps in the software development lifecycle?
+-   What is the difference between Waterfall and Agile methodologies?
+-   What are the benefits of an Agile development process?
+-   What is the Scrum process?
+-   Please describe the following Agile frameworks: XP (Extreme Programming), Scrum and Kanban
+-   What are different Scrum ceremonies?
+-   What is a user story?
+-   Explain the differences between a Product Backlog and a Sprint Backlog
+-   What is the role of a Scrum Master?
+-   What is a Product Owner?
+-   What does "Definition of Done" mean?
+
+------------------------------------------------------------------------
+
+# Data Structures & Algorithms
+
+-   Explain time-space complexity using Big O notation.
+-   Describe trade-offs between arrays and linked lists.
+-   Explain recursion and its trade-offs.
+-   How would you efficiently find duplicates in an array?
+
+------------------------------------------------------------------------
+
+# REST
+
+-   What is a "REST"ful API?
+-   Describe the process to complete an HTTP request.
+-   What is the difference between the different HTTP methods/verbs? Which of these are idempotent?
+-   What are the levels of status codes that can be sent in a response?
+-   What is included in an HTTP Request?
+-   What is included in an HTTP Response?
+-   What are the 6 constraints of a RESTful API? Explain them.
+-   Explain the difference between Authorization and Authentication, and give an example of why this distinction is important.
+
+------------------------------------------------------------------------
+
+# Spring Core
+
+-   What are Spring Projects and Spring Modules?
+-   What are the benefits of Spring?
+-   What is IOC and what does the IOC Container do?
+-   What is dependency injection?
+-   What types of dependency injection does Spring support?
+-   What is bean wiring? What about autowiring?
+-   What is component scanning?
+-   What is the Spring Bean lifecycle?
+-   What are lifecycle hooks in a Spring bean?
+-   What are bean scopes in Spring?
+-   What are Sterotype annotations? List some stereotype annotations and their differences.
+-   What are some differences between BeanFactory and ApplicationContext? Which one eagerly instantiates your beans?
+-   What is the Spring Java Configuration class and how to implement it
 
 
+------------------------------------------------------------------------
 
+# Spring Boot
 
+-   How does Boot's autoconfiguration work?
+-   What are the benefits and features of using Spring Boot?
+-   What files configure Spring Boot applications?
+-   What is Spring Initializr and how do you use it?
+-   What are common Spring Boot Starters?
+-   How is Spring Boot different from legacy Spring applications?
+-   What is the Spring Boot actuator? What information can it give you?
+-   How do you use DevTools in a Spring project?
+-   How do you use Lombok in a Spring project?
 
+------------------------------------------------------------------------
+
+# Spring Web
+
+-   Explain the MVC architecture and how HTTP requests are processed in Spring MVC.
+-   What concerns is the controller layer supposed to handle vs the service layer?
+-   What is the difference between @Controller and @RestController?
+-   How would you extract query and path parameters from a request URL in your controller?
+-   How would you specify HTTP status codes to return from your controller?
+-   How do you insert status codes, headers, and cookies into HTTP responses?
+-   How do you handle exceptions thrown in your code from your controller? What happens if you don't set up any exception handling?
+-   Explain the MVC design pattern, and how it differs from modern Spring web development
+
+------------------------------------------------------------------------
+
+# Spring Data JPA
+
+-   What is @Query used for?
+-   What annotations or techniques allow writing more complex queries in Spring Data JPA?
+-   What is JPQL?
+-   What is Spring ORM and Spring Data?
+-   What annotations can be used to prevent circular references during JSON serialization in Spring Data?
+-   What is the difference between eager and lazy loading in Spring Data
+    JPA?
+-   What is a database transaction, and how do you control transaction
+    behavior in Spring?
+-   What is an Entity in Spring Data JPA, and how do you define one?
+-   What are derived query methods in Spring Data?
+-   What does `@Transactional` do?
+
+------------------------------------------------------------------------
+
+# HTML-CSS
+
+-   What is HTML?
+-   What is the structure of an HTML document?
+-   How do you add an external CSS stylesheet?
+-   What is the difference between ordered and unordered lists?
+-   Write HTML markup for a table.
+-   What is an inline element?
+-   What is a block element?
+-   What is CSS?
+-   Describe the CSS box model.
+-   What determines CSS priority when styles cascade?
+-   What is the syntax for styling elements, classes, and ids?
+-   What is Flexbox?
+-   What is CSS Grid?
+
+------------------------------------------------------------------------
+
+# JavaScript
+
+-   What is JavaScript?
+-   What are the different scopes of variables in JavaScript?
+-   What is the difference between == and ===?
+-   What is hoisting?
+-   What are JavaScript objects?
+-   What is JSON?
+-   What are callback functions?
+-   What is the DOM?
+-   How do you query elements in the DOM?
+-   What are event listeners?
+-   What is event bubbling and capturing?
+-   What is AJAX?
+-   What are the steps for sending an HTTP request with Fetch?
+-   How do you handle failed requests with Fetch?
+-   What type of object does Fetch return?
+-   Explain async and await.
+
+------------------------------------------------------------------------
+
+# TypeScript
+
+-   What are some features that TypeScript has that JavaScript doesn't have?
+-   What is Node and NPM?
+-   How does TypeScript relate to JavaScript? What are the major benefits of using it over JavaScript?
+-   List some of the data types of TypeScript. Which are unique to TypeScript?
+-   Compare and contrast TypeScript with JavaScript. What are the key differences, and why might someone choose TypeScript over JavaScript?
+-   What are some of the basic types available in TypeScript? Give examples.
+-   How do you implement user-defined types in TypeScript?
+-   Describe the process of transpiling and running TypeScript code.
+-   What is a Union Type and why are they useful?
+-   What is the tsconfig.json file?
+-   What is Webpack?
+
+------------------------------------------------------------------------
+
+# Angular
+
+-   What are some features of the Angular framework?
+-   What is SPA? and how does it differ from a normal webpage?
+-   What is a component?
+-   What are the component lifecycle hooks?
+-   How would you create an Angular component?
+-   What is a service and how is it different from a component?
+-   What is a directive and what are the different types?
+-   Please describe the new declarative control flow statements in Angular 17+
+-   What are the different types of data binding in Angular?
+-   Please explain HttpClient and what it is used for
+-   What is the process to implement routing in an Angular application?
+-   How does Dependency Injection work in Angular?
+-   What is the difference between server-side and client-side rendering?
+-   What is a Pipe?
+-   What is a decorator? What are some decorators in Angular?
+-   What is an Angular module and how would you create one? How does this differ from modern Angular?
+-   What are signals?
+-   What is an Observable? How does it differ from a Promise?
