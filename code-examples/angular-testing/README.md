@@ -1,5 +1,8 @@
 # README
 
-The code within the app directory includes all Angular code examples covered in Lecture, along with some additional resources.
+The code within the app directory includes some code examples Related to Testing in Angular.
 
-The examples include comments documenting the example's use - please review the code within for references on topics
+Sample Test files include:
+- banner.spec.ts (showcases testing component templates)
+- tax-calculator.spec.ts (showcases injection)
+- order-total.spec.ts (sowcases injection)
