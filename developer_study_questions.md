@@ -284,3 +284,27 @@
 -   What is an Angular module and how would you create one? How does this differ from modern Angular?
 -   What are signals?
 -   What is an Observable? How does it differ from a Promise?
+
+------------------------------------------------------------------------
+
+# Angular Testing
+
+- What command is used to perform testing in Angular?
+- What is Jasmine?
+- Describe test functions provided by Jasmine?
+- What do you need to do to mock data with Jasmine?
+- What is Karma?
+- What is Vitest?
+- What is TestBed used for?
+- How do you test components with TestBed?
+- What is a Fixture?
+
+------------------------------------------------------------------------
+
+# OAuth
+
+- What is OAuth?
+- What are the roles in OAuth?
+- What is JWT?
+- What are the types of Tokens?
+
