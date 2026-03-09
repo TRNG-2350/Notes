@@ -308,3 +308,44 @@
 - What is JWT?
 - What are the types of Tokens?
 
+------------------------------------------------------------------------
+
+# DevOps
+
+- What is DevOps? What is the goal of various DevOps processes, and how do they support the SDLC?
+- Explain CI/CD. What is the difference between Continuous Deployment and Continuous Delivery?
+- What is a "build"? What is the end result of a build?
+- What is SonarQube / SonarCloud? Explain some of the features of it
+- What is a "code smell"?
+- What tools can you use to achieve CI/CD?
+- What is a DevOps pipeline? Explain the steps to setting one up
+
+------------------------------------------------------------------------
+
+# Jenkins
+
+- What is Jenkins and What are it's key features?
+- Why is Jenkins important to DevOps?
+- What are Jenkins Jobs?
+- What are Jenkins Builds?
+- What are GitHub Webhooks in Jenkins?
+- How does Jenkins use Source Control Management in a pipeline?
+- What are Freestyle Jobs in Jenkins?
+- What are Pipeline Jobs in Jenkins?
+- What is a Jenkinsfile?
+- What is the basic structure of a Jenkinsfile?
+- What is the role of Controller and Agent Nodes in Jenkins?
+
+------------------------------------------------------------------------
+
+# Docker
+
+- What is a container? How is it different from a virtual machine?
+- What is a Docker image? What is a Docker Container?
+- What is the Docker Daemon?
+- What is a container registry? How would you retrieve and upload images to DockerHub?
+- What is the benefit to an image being built in Layers?
+- What are some Docker commands? and what do they do?
+
+
+
