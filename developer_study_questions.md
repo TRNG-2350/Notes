@@ -376,3 +376,49 @@
 - How does App Engine differ from Compute Engine Service?
 - What are Cloud functions (or Cloud Run Functions)?
 
+------------------------------------------------------------------------
+
+# Microservices with Spring
+
+- What is a microservice and how does it differ from a Monolithic architecture?
+- What is a Polyglot pattern?
+- What is th difference beteen vertical and horizontal scaling? Which scaling method do monoliths and microservices typically perform?
+- What is service registry?
+- What is service discovery?
+- What is an API Gateway?
+- How is load balancing performed?
+- What is a circuit breaker pattern? what the states of a circuit?
+
+------------------------------------------------------------------------
+
+# Event Driven Architecture & Kafka
+
+- What is Kafka?
+- What are the features of Kafka?
+- What are the important components of Kafka?
+- What is a Topic?
+- What role does a broker play?
+- What is a Consumer Group?
+- What is a partition?
+- What is Kafka Streams?
+
+------------------------------------------------------------------------
+
+# Kubernetes
+
+- What is kubernetes? and what is it used for?
+- What is container orchestration?
+- What is a cluster in Kubernetes?
+- What is a node in Kubernetes?
+- What is a pod in Kubernetes?
+- What is a Service in Kubernetes?
+
+------------------------------------------------------------------------
+
+# Terraform
+
+- What is Terraform?
+- What is Infrastructure as code?
+
+
+
